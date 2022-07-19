@@ -23,7 +23,7 @@ app.action('plain_text_input-action', async ({ ack, payload, body }) => {
         web.chat.postEphemeral({
             channel: body.container.channel_id,
             user: body.user.id,
-            text: "_Loading..._"
+            text: ":pls-just-work: _Loading..._"
         }),
         fetch('https://api.yodacode.xyz/math/' + encodeURIComponent(payload.value)).then(response => response.text())
     ]);
