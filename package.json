@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@slack/bolt": "^3.12.0",
+    "@slack/web-api": "^6.7.2",
+    "node-fetch": "^2.6.7"
+  },
+  "name": "mathbot",
+  "description": "A bot that does math. It's in the name.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "env": "echo \"Run  . ./.env.sh  to set environment variables.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YodaLightsabr/Mathbot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YodaLightsabr/Mathbot/issues"
+  },
+  "homepage": "https://github.com/YodaLightsabr/Mathbot#readme"
+}
