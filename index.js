@@ -38,7 +38,7 @@ app.action('plain_text_input-action', async ({ ack, payload, body }) => {
                 "block_id": "yWuBr",
                 "text": {
                     "type": "mrkdwn",
-                    "text": "Here's your image for the equation `" + payload.value.split('@').join('').split('channel').join('').split('here').join('') + "`:\n<https://hackclub.slack.com/archives/C03Q1GCE6JE/p1658223205307919|Solve another?>",
+                    "text": "Here's your image for the problem `" + payload.value.split('@').join('').split('channel').join('').split('here').join('') + "`:\n<https://hackclub.slack.com/archives/C03Q1GCE6JE/p1658223205307919|Solve another?>",
                     "verbatim": false
                 }
             },
